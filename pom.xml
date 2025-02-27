@@ -9,10 +9,10 @@
 		<relativePath/>
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>sbdb</artifactId>
+	<artifactId>sbdb2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sbdb</name>
-	<description>Project for Spring Boot DB</description>
+	<name>sbdb2</name>
+	<description>Project for Spring Boot DB 2</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -79,22 +79,13 @@
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
-			<scope>test</scope>
+			<version>8.0.33</version>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.testcontainers</groupId>
-			<artifactId>testcontainers</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.testcontainers</groupId>
-			<artifactId>junit-jupiter</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.testcontainers</groupId>
-			<artifactId>mysql</artifactId>
-			<scope>test</scope>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+			<version>9.15.0</version>
 		</dependency>
 	</dependencies>
 
